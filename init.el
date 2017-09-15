@@ -5,3 +5,5 @@
  save-place t)
 (setq auto-save-file-name-transforms
       `((".*" ,temporary-file-directory t)))
+
+(menu-bar-mode -1)
